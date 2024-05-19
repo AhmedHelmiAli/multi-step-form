@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@layer base {
+  @font-face {
+    font-family: "Ubuntu";
+    src: url("/src/assets/fonts/Ubuntu-Regular.woff2") format("woff2"),
+      url("/src/assets/fonts/Ubuntu-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Ubuntu";
+    src: url("/src/assets/fonts/Ubuntu-Medium.woff2") format("woff2"),
+      url("/src/assets/fonts/Ubuntu-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Ubuntu";
+    src: url("/src/assets/fonts/Ubuntu-Bold.woff2") format("woff2"),
+      url("/src/assets/fonts/Ubuntu-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+  }
+}
