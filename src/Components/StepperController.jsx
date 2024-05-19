@@ -5,7 +5,7 @@ function StepperController() {
   const { isLastStep, isFirstStep, back } = useContext(formContext);
 
   return (
-    <div className="justify-between md:flex md:static  md:mt-auto fixed bottom-[30%] ">
+    <div className="justify-between md:flex md:static  md:mt-auto fixed bottom-[25%] ">
       {!isFirstStep && (
         <button
           type="button"
