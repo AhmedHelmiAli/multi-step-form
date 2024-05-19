@@ -27,7 +27,7 @@ function SelectPlan() {
       <p className="mb-6 text-coolGray">
         You have the option of monthly or yearly billing
       </p>
-      <div className="flex flex-col gap-3 mb-10 md:flex-row">
+      <div className="flex flex-col gap-3 mb-4 md:flex-row">
         <label
           htmlFor="arcade"
           className="md:w-36 flex gap-4 md:block p-2  border rounded border-coolGray has-[:checked]:border-indigo-800 has-[:checked]:border-[0.1rem] cursor-pointer"

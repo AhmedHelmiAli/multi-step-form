@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { formContext } from "../Contexts/MultiStepFormContext";
 import StepperController from "../Components/StepperController";
-import FinalMessage from "../Steps/FinalMessage";
+import FinalMessage from "../Components/FinalMessage";
 
 function Stepper() {
   const { step, next, isLastStep, isCompleted, setFinalMessage } =
@@ -17,7 +17,7 @@ function Stepper() {
   }
 
   return (
-    <div className="absolute rounded p-3  md:pt-4 md:pb-2 md:px-0  w-[95%]  mx-auto  bg-white md:w-[25rem] top-24 md:static left-2">
+    <div className="absolute rounded p-3 md:pt-4 md:pb-2 md:px-0  w-[95%]  mx-auto  bg-white md:w-[25rem] top-[5.2rem] md:static left-2">
       {isCompleted ? (
         <FinalMessage />
       ) : (
