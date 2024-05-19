@@ -49,9 +49,13 @@ function SelectPlan() {
             <p className="text-coolGray">{`$${
               type === "monthly" ? "9/mo" : "90/yr"
             }`}</p>
-            {type === "yearly" && (
-              <p className="font-sm text-marineBlue">2 months free</p>
-            )}
+            <p
+              className={`font-sm h-0 overflow-hidden transition-height duration-500 ease-in-out ${
+                type === "yearly" ? "h-auto" : ""
+              } text-marineBlue`}
+            >
+              2 months free
+            </p>
           </div>
         </label>
         <label
@@ -75,9 +79,14 @@ function SelectPlan() {
             <p className="text-coolGray">{`$${
               type === "monthly" ? "12/mo" : "120/yr"
             }`}</p>
-            {type === "yearly" && (
-              <p className="font-sm text-marineBlue">2 months free</p>
-            )}
+
+            <p
+              className={`font-sm h-0 overflow-hidden transition-height duration-500 ease-in-out ${
+                type === "yearly" ? "h-auto" : ""
+              } text-marineBlue`}
+            >
+              2 months free
+            </p>
           </div>
         </label>
         <label
@@ -101,9 +110,13 @@ function SelectPlan() {
             <p className="text-coolGray">{`$${
               type === "monthly" ? "15/mo" : "150/yr"
             }`}</p>
-            {type === "yearly" && (
-              <p className="font-sm text-marineBlue">2 months free</p>
-            )}
+            <p
+              className={`font-sm h-0 overflow-hidden transition-height duration-700 ease-in-out delay-150 ${
+                type === "yearly" ? "h-auto" : ""
+              } text-marineBlue`}
+            >
+              2 months free
+            </p>
           </div>
         </label>
       </div>

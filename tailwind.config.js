@@ -33,6 +33,9 @@ export default {
       fontFamily: {
         ubuntu: ["Ubuntu"],
       },
+      transitionProperty: {
+        height: "height",
+      },
     },
   },
   plugins: [],
