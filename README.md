@@ -4,23 +4,23 @@ This project implements a user-friendly multi-step form, built to meet the requi
 
 ## Features
 
-*Segmented Approach: Breaks down complex forms into digestible steps, reducing cognitive load and enhancing user engagement.
+* Segmented Approach: Breaks down complex forms into digestible steps, reducing cognitive load and enhancing user engagement.
 
-*Dynamic Flow: Conditions dynamically alter the form's flow based on user inputs, adapting to individual needs.
+* Dynamic Flow: Conditions dynamically alter the form's flow based on user inputs, adapting to individual needs.
 
-*Session Tracking: Allows users to resume their form at the exact point they left off, improving user retention and satisfaction.
+* Session Tracking: Allows users to resume their form at the exact point they left off, improving user retention and satisfaction.
 
-*Intuitive Navigation: Clear indicators and navigation options guide users through each step, ensuring they never lose their place.
+* Intuitive Navigation: Clear indicators and navigation options guide users through each step, ensuring they never lose their place.
 
-*Data Persistence: Saves user input after each step, safeguarding against data loss and streamlining the submission process.
+* Data Persistence: Saves user input after each step, safeguarding against data loss and streamlining the submission process.
 
-*Responsive Design: Adapts to various devices and screen sizes, ensuring accessibility and usability across platforms.
+* Responsive Design: Adapts to various devices and screen sizes, ensuring accessibility and usability across platforms.
 
-*Conditional Logic: Dynamically shows or hides fields based on previous answers, keeping the form relevant and focused.
+* Conditional Logic: Dynamically shows or hides fields based on previous answers, keeping the form relevant and focused.
 
-*Validation and Error Handling: Real-time input validation and comprehensive error messaging improve data integrity and user experience.
+* Validation and Error Handling: Real-time input validation and comprehensive error messaging improve data integrity and user experience.
 
-*Final Review Option: Enables users to review their inputs before final submission, promoting accuracy and completeness.
+* Final Review Option: Enables users to review their inputs before final submission, promoting accuracy and completeness.
 
 
 ## Technologies
