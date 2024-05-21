@@ -7,7 +7,7 @@ function Sidebar() {
   const isLogged = userData.name && userData.email && userData.phone;
 
   return (
-    <div className="w-full h-[9rem] md:h-full flex gap-3  justify-center md:block md:w-[13.75rem]  md:px-4  md:py-5 text-white uppercase md:bg-no-repeat bg-contain bg-sidebar-mob md:bg-sidebar-desk">
+    <div className="w-full h-[9rem] md:h-full flex gap-3  justify-center md:block md:w-[13.75rem]  md:px-4  md:py-5 text-white uppercase bg-center bg-cover bg-no-repeat bg-sidebar-mob md:bg-sidebar-desk">
       <div
         onClick={() => goTo(0)}
         className="flex items-center self-start gap-5 mt-6 cursor-pointer md:mt-0 md:mb-8"

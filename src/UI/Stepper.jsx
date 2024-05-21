@@ -17,7 +17,7 @@ function Stepper() {
   }
 
   return (
-    <div className="absolute rounded p-3 md:pt-4 md:pb-2 md:px-0  w-[95%]  mx-auto  bg-white md:w-[25rem] top-[5.2rem] md:static left-2">
+    <div className="absolute rounded p-3 md:pt-4 md:pb-2 md:px-0  w-[95%]  mx-auto  bg-white md:w-[25rem] top-[5.2rem] md:static left-0 right-0">
       {isCompleted ? (
         <FinalMessage />
       ) : (
